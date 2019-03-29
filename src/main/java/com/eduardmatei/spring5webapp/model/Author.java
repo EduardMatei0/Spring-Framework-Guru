@@ -59,8 +59,8 @@ public class Author {
         return books;
     }
 
-    public void setBooks(Set<Book> books) {
-        this.books = books;
+    public void addBook(Book book) {
+        this.books.add(book);
     }
 
     @Override
